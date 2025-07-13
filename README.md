@@ -68,12 +68,14 @@ project/
 └── ai-engine/ (expected)        → Python ML microservice (for demo)
 
 🛠️ Getting Started
+
 1. Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/IMPAT.git
-cd IMPAT
+git clone https://github.com/yourusername/IMPACT.git
+cd IMPACT
+
 2. Install Backend Dependencies
 bash
 Copy
@@ -81,6 +83,7 @@ Edit
 cd server
 npm install
 npm run dev
+
 3. Setup Frontend (React + Vite)
 bash
 Copy
@@ -88,22 +91,20 @@ Edit
 cd ../react_frontend_tailwind
 npm install
 npm run dev
+
 4. (Optional) Start AI/ML Engine
 If you are using an AI microservice:
-
 bash
 Copy
 Edit
 cd ../ai-engine
 pip install -r requirements.txt
 python app.py
+
 🧪 Sample Demo Flow
 Login as Admin → Dashboard
-
 View flagged travelers (based on travel and call metadata)
-
 Download risk reports (PDF/CSV export)
-
 Change user risk status after review
 
 🔒 Security & Roles
@@ -117,9 +118,7 @@ This project is intended for academic, research, and government demonstration pu
 
 👥 Contributors
 Purnagya Raj – System Design, Frontend, AI Integration
-
 Sayan Santra – Backend API, Authentication & Role Management
-
 Pushkar Gupta – Machine Learning Models & Risk Analytics
 
 🏛️ Organization
